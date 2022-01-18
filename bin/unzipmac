@@ -1,0 +1,10 @@
+#!/usr/bin/env fish
+
+set n_arg (count $argv )
+if test $n_arg = 2
+  ditto -V -x -k --sequesterRsrc --rsrc $argv[1] $argv[2]
+else
+  echo 'unzipmac [input zip] [output directory]'
+end
+
+
