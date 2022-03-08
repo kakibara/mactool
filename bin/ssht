@@ -1,0 +1,2 @@
+#!/usr/bin/env fish
+gtar zcf - $argv[1] | ssh $argv[2] 'tar zxf -'
