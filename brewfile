@@ -1,0 +1,42 @@
+tap "homebrew/bundle"
+brew "cmake"
+brew "fish"
+brew "gh"
+brew "git"
+brew "node_exporter"
+brew "peco"
+brew "tig"
+brew "tree"
+
+cask "dropbox"
+cask "zoom"
+cask "deepl"
+cask "discord"
+cask "docker"
+cask "dropbox"
+cask "karabiner-elements"
+cask "slack"
+cask "visual-studio-code"
+cask "zoom"
+
+mas "AmorphousDiskMark", id: 1168254295
+mas "AmorphousMemoryMark", id: 1495719766
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Moom", id: 419330170
+mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
+mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
+
+# add
+mas "Kindle", id:405399194
+mas "Xcode", id:497799835
+
+vscode "GitHub.copilot"
+vscode "GitHub.copilot-chat"
+
+
